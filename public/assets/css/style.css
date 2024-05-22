@@ -1,0 +1,108 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+.navbar {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Main Content */
+.phonebook-container {
+  padding: 20px 0;
+}
+
+/* Forms */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  color: #333;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.btn-outline-primary {
+  color: #3498db;
+  border-color: #3498db;
+}
+
+.btn-outline-primary:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Tables */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Alerts */
+.alert {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+
+.alert-danger a {
+  color: #a94442;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.alert-danger a:hover {
+  color: #a94442;
+  text-decoration: none;
+}
+
+
+.contact-list-container {
+  max-height: 70vh; /* Adjust this value as needed */
+  overflow-y: auto;
+}
